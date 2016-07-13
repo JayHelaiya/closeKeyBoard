@@ -1,0 +1,3 @@
+ InputMethodManager imm = (InputMethodManager)getActivity().getSystemService(Context.INPUT_METHOD_SERVICE);
+ imm.hideSoftInputFromWindow(et_bolt.getWindowToken(), 0);
+
